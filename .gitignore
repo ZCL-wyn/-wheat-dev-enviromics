@@ -1,0 +1,22 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+renv/
+renv.lock
+
+# Large data files
+*.zip
+*.gz
+*.tar
+*.iso
+
+# APSIM temporary
+*.db
+*.db-shm
+*.db-wal
+
+# System
+.DS_Store
+Thumbs.db
