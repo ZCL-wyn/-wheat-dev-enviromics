@@ -6,11 +6,11 @@
 renv/
 renv.lock
 
-# Large data files
+# Large installer/archive files (not project data)
 *.zip
-*.gz
-*.tar
 *.iso
+*.exe
+*.msi
 
 # APSIM temporary
 *.db

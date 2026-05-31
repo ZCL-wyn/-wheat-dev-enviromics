@@ -39,6 +39,15 @@ Run scripts in numerical order (00 → 16) for full analysis pipeline.
 
 **Phase 5 — Prediction & Figures (14–16):** Genomic prediction → manuscript figures → FW validation
 
+## Data
+
+```
+data/raw/
+├── genotype/     983_renamed.vcf.gz   (25 MB, 983 wheat lines)
+├── phenotype/    TKW.txt              (96 KB, thousand-kernel weight)
+└── envirotype/   EC8.csv              (712 KB, 8 environmental covariates)
+```
+
 ## Data Sources
 
 - NASA POWER (historical weather)
