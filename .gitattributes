@@ -1,0 +1,22 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# R scripts
+*.R text linguist-language=R
+*.r text linguist-language=R
+
+# Data files
+*.csv text
+*.txt text
+*.vcf text
+*.vcf.gz binary
+
+# Documentation
+*.md text
+*.bib text
+CITATION.cff text
+
+# Binary
+*.png binary
+*.jpg binary
+*.pdf binary
