@@ -1,6 +1,12 @@
 # Developmental Enviromics for Wheat G×E Dissection
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 R scripts for processing weather data, APSIM phenology simulation, enviromic marker development, heritability analysis, GWAS, QTL/haplotype analysis, and genomic prediction for wheat genotype-by-environment interaction analysis.
+
+> **Zhang C., He J., Yu R., et al.** A developmental enviromics framework dissects wheat thousand-kernel weight genotype-by-environment interactions into modular baseline potential and phenotypic plasticity. *(under review)*
+
+---
 
 ## Repository Structure
 
@@ -22,22 +28,20 @@ scripts/
 ├── 13_epistasis_haplotype/        # Epistasis, combined haplotype, QTL interaction
 ├── 14_genomic_prediction/         # Genomic selection validation (3 strategies)
 ├── 15_final_figures/              # Combined manuscript figures
-└── 16_fw_validation/              # FW independent validation, 3-fold cross-validation
+└── 16_fw_validation/              # FW independent validation, cross-validation
 ```
 
 ## Workflow
 
 Run scripts in numerical order (00 → 16) for full analysis pipeline.
 
-**Phase 1 — Data Preparation (00–05):** Weather data → APSIM phenology → enviromics alignment
-
-**Phase 2 — Heritability & Variance (06–08):** FW independence test → variance decomposition → GW/G×W partitioning
-
-**Phase 3 — Association & PCA (09–10):** Genotype/envirotype PCA → EWAS → GAPIT GWAS
-
-**Phase 4 — Plasticity & QTL (11–13):** FW phenotypic plasticity → QTL detection → haplotype analysis → epistasis
-
-**Phase 5 — Prediction & Figures (14–16):** Genomic prediction → manuscript figures → FW validation
+| Phase | Scripts | Description |
+|-------|---------|-------------|
+| **1 — Data Preparation** | 00–05 | Weather data → APSIM phenology → enviromics alignment |
+| **2 — Heritability & Variance** | 06–08 | FW independence test → variance decomposition → GW/G×W partitioning |
+| **3 — Association & PCA** | 09–10 | Genotype/envirotype PCA → EWAS → GAPIT GWAS |
+| **4 — Plasticity & QTL** | 11–13 | FW phenotypic plasticity → QTL detection → haplotype analysis → epistasis |
+| **5 — Prediction & Figures** | 14–16 | Genomic prediction → manuscript figures → FW validation |
 
 ## Data
 
@@ -48,16 +52,33 @@ data/raw/
 └── envirotype/   EC8.csv              (712 KB, 8 environmental covariates)
 ```
 
+All processed data and analysis outputs are also deposited at **Figshare**:  
+[https://doi.org/10.6084/m9.figshare.30873803](https://doi.org/10.6084/m9.figshare.30873803)
+
 ## Data Sources
 
-- NASA POWER (historical weather)
-- CMIP6 (future climate projections)
-- APSIM Next Generation (phenology simulation)
-- Genotypic data (VCF)
-- Phenotypic data (field trials)
+- **NASA POWER** — historical daily weather data (1985–2025)
+- **CMIP6** — future climate projections
+- **APSIM Next Generation** — crop phenology simulation
+- **Genotypic data** — 16K+5K targeted genotyping array (46,325 SNPs after QC)
+- **Phenotypic data** — field trials across 8 environments (2024–2025)
 
 ## Requirements
 
-- R >= 4.2.0
+- R ≥ 4.2.0
 - APSIM Next Generation
-- Key packages: GAPIT, sommer, BGLR, rrBLUP, tidyverse
+- Key R packages: `GAPIT`, `sommer`, `BGLR`, `rrBLUP`, `tidyverse`, `data.table`, `ggplot2`
+
+For exact package versions, see session info in the Figshare deposit.
+
+## Citation
+
+If you use this code or data, please cite the corresponding paper (forthcoming) and the Figshare deposit:
+
+> Zhang C., He J., Yu R., et al. A developmental enviromics framework dissects wheat thousand-kernel weight genotype-by-environment interactions into modular baseline potential and phenotypic plasticity. *(under review)*
+
+> Zhang C. et al. (2026). Analysis code and processed data for "A developmental enviromics framework dissects wheat TKW G×E interactions." Figshare. [https://doi.org/10.6084/m9.figshare.30873803](https://doi.org/10.6084/m9.figshare.30873803)
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
