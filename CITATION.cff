@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the corresponding paper (under review) and the Figshare deposit."
+title: "A developmental enviromics framework dissects wheat thousand-kernel weight genotype-by-environment interactions into modular baseline potential and phenotypic plasticity"
+authors:
+  - family-names: Zhang
+    given-names: Chuanliang
+  - family-names: He
+    given-names: Jiale
+  - family-names: Yu
+    given-names: Rui
+  - family-names: Wang
+    given-names: Yuze
+  - family-names: Yuan
+    given-names: Meng
+  - family-names: He
+    given-names: Kunhui
+  - family-names: Du
+    given-names: Xijun
+  - family-names: Sun
+    given-names: Shengjie
+  - family-names: Zhang
+    given-names: Aoyan
+  - family-names: Zhao
+    given-names: Wensha
+  - family-names: Wu
+    given-names: Jianhui
+  - family-names: Song
+    given-names: Xiaopeng
+  - family-names: Song
+    given-names: Quanhao
+  - family-names: Liu
+    given-names: Shengjie
+  - family-names: Wang
+    given-names: Qilin
+  - family-names: Li
+    given-names: Jie
+  - family-names: Li
+    given-names: Huihui
+  - family-names: Sun
+    given-names: Daojie
+  - family-names: Han
+    given-names: Dejun
+year: 2026
+keywords:
+  - developmental enviromics
+  - genotype-by-environment interaction
+  - reaction norm
+  - wheat thousand-kernel weight
+  - phenotypic plasticity
+  - genomic prediction
+repository-code: "https://github.com/ZCL-wyn/-wheat-dev-enviromics"
+url: "https://github.com/ZCL-wyn/-wheat-dev-enviromics"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A developmental enviromics framework dissects wheat thousand-kernel weight genotype-by-environment interactions into modular baseline potential and phenotypic plasticity"
+  authors:
+    - family-names: Zhang
+      given-names: Chuanliang
+    - family-names: He
+      given-names: Jiale
+    - family-names: Yu
+      given-names: Rui
+    - family-names: Wang
+      given-names: Yuze
+    - family-names: Yuan
+      given-names: Meng
+    - family-names: He
+      given-names: Kunhui
+    - family-names: Du
+      given-names: Xijun
+    - family-names: Sun
+      given-names: Shengjie
+    - family-names: Zhang
+      given-names: Aoyan
+    - family-names: Zhao
+      given-names: Wensha
+    - family-names: Wu
+      given-names: Jianhui
+    - family-names: Song
+      given-names: Xiaopeng
+    - family-names: Song
+      given-names: Quanhao
+    - family-names: Liu
+      given-names: Shengjie
+    - family-names: Wang
+      given-names: Qilin
+    - family-names: Li
+      given-names: Jie
+    - family-names: Li
+      given-names: Huihui
+    - family-names: Sun
+      given-names: Daojie
+    - family-names: Han
+      given-names: Dejun
+  year: 2026
+  status: under-review
