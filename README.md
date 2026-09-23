@@ -17,7 +17,6 @@ scripts/
 ├── 02_phenology_apsim/            # Phenology data processing & APSIM combined outputs
 ├── 03_growthstage_alignment/      # Growth stage alignment reports
 ├── 04_enviromics_merge/           # Weather-phenology merge & enviromic marker development
-├── 05_visualization/              # Weather data visualization
 ├── 06_heritability_variance/      # Heritability: FW independence, variance partitioning
 ├── 07_genotype_prep/              # VCF to 012 genotype matrix conversion
 ├── 08_variance_decomposition/     # GW & GW-G×W model variance partitioning
@@ -37,7 +36,7 @@ Run scripts in numerical order (00 → 16) for full analysis pipeline.
 
 | Phase | Scripts | Description |
 |-------|---------|-------------|
-| **1 — Data Preparation** | 00–05 | Weather data → APSIM phenology → enviromics alignment |
+| **1 — Data Preparation** | 00–04 | Weather data → APSIM phenology → enviromics alignment |
 | **2 — Heritability & Variance** | 06–08 | FW independence test → variance decomposition → GW/G×W partitioning |
 | **3 — Association & PCA** | 09–10 | Genotype/envirotype PCA → EWAS → GAPIT GWAS |
 | **4 — Plasticity & QTL** | 11–13 | FW phenotypic plasticity → QTL detection → haplotype analysis → epistasis |
